@@ -22,6 +22,6 @@ class BankAccount
   end
 
   def close_account
-
+    self.clear_all
   end
 end
