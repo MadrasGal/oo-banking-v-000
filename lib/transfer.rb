@@ -9,7 +9,7 @@ attr_accessor :sender, :receiver, :amount, :status
     @amount = amount
   end
 
-  def both_valid?
+  def valid?
     sender.valid? && receiver.valid?
   end
 
